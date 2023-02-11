@@ -22,9 +22,11 @@ img{
     margin-right: auto;
     margin-left: auto;
 }
-h1{
+.title{
     text-align: center;
     color: #8cabae;
+    font-size: 40px;
+    font-weight: lighter;
 }
 .col-6{
     color: #8cabae;
@@ -37,12 +39,12 @@ h1{
     font-size: 25px;
     font-weight: lighter;
 }
+.eltit{
+    color: #8cabae;
+    font-size: 25px;
+}
 .col-8{
     margin: 0px 0px 60px 5px;
-}
-.gami{
-    width: 300px;
-    height: 300px;
 }
 .gmi{
     width: 20px;
@@ -62,23 +64,19 @@ border: none;
     background-color: #3e83e0;
     border: none;
     }
-.sel2{
+.sel1{
     margin: 50px 0px 0px 0px;
     color: white;
 text-decoration: underline;
 background-color: #1b2735;
 border: none;
 }
-.sel3{
+.sel2{
     margin: 0px 0px 15px 0px;
     color: white;
 text-decoration: underline;
 background-color: #1b2735;
 border: none;
-}
-.col-2{
-    color: #8cabae;
-    font-size: 25px;
 }
 .block1{
     background-color: #00ccb1;
@@ -92,21 +90,41 @@ border: none;
 .container-fluid{
     background-color: #d9f7f7;
 }
+.col-5{
+    color: #5ea794;
+    padding: 60px;
+}
 .block4{
     color: #95bbac;
-    padding: 18px 22px;
+    /*padding: 18px 22px;*/
     margin: 15px;
     background-color: white;
     text-align: center;
+}
+.bloc1{
+    margin-top: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.bloc2{
+    padding-bottom: 90px;
+    padding-top: 30px;
+}
+.bloc4{
+padding-bottom: 90px;
+padding-top: 30px;
 }
 .gim{
     width: 30px;
     height: 30px;
 }
+.gami{
+    width: 400px;
+    height: 400px;
+}
 .onetitle{
 font-size: 35px;
 font-weight: lighter;
-text-align: center;
 }
 .twotitle{
     font-size: 25px;
@@ -129,6 +147,18 @@ margin: 10px;
     margin: 10px;
     color: #bababa;
     }
+    .mag{
+        width: 300px;
+        height: 290px;
+        margin: 8px;
+        border-radius: 8px;
+    }
+    .soust{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
     .flex-box{
         text-align: center;
         font-size: 30px;
@@ -139,10 +169,5 @@ margin: 10px;
         text-align: center;
         margin-bottom: 60px;
     }
-    .mag{
-        width: 300px;
-        height: 290px;
-        margin: 8px;
-        border-radius: 8px;
-    }
+    
     
